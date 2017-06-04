@@ -1,0 +1,33 @@
+h4{
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home-conten{
+    margin: 0 auto;
+    padding-top: 300;
+    text-align: center;
+    min-height: 400px;
+    width: 100%
+}
+.home-container h1{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.home-container h2{
+    font-family: 'Indie Flower', cursive;
+    padding-left: 18px;
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.info-container p{
+    color:white;
+    font-size: 15px;
+}
+    
