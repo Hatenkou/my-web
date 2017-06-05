@@ -31,16 +31,31 @@
     justify-content: flex-start;
 }
 .info-container{
-    margin: 0;
+    margin: 10px;
     padding: 20px;
-    background-color: #BF66E5;
+    background-color: #FF143D;
     width: 200px;
     height: 320px;
 }
 .education-container{
-    margin:0;
+    margin: 10px;
     padding: 20px;
     background-color: #009999;
     width: 420px;
     height: 200px;
+}
+.professional-container{
+    margin: 10px;
+    padding: 20px;
+    background-color: #BF66E5;
+    width: 620px;
+    height: 300px;
+}
+.contact-container{
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
 }
