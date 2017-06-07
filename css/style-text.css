@@ -4,6 +4,14 @@ h4{
 p{
     font-family: 'Josefin Sans', sans-serif;
 }
+.social a{
+    color:#ffffff;
+}
+.social a:hover, a:focus{
+    color:#000000;
+    text-decoration: none;
+    outline: 0;
+}
 
 .home-conten{
     margin: 0 auto;

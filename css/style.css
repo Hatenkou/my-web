@@ -39,7 +39,7 @@ section {
 
 #p4 {
   left: 300%;
-  background: #6B4FFF;
+  background: #14D65C;
 }
 
 ul {
@@ -199,10 +199,10 @@ a {
 	color: #fff
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+/*contact*/
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
+  color: #FFFFFF;
   font-size: 0.875em;
 }
 
@@ -211,30 +211,30 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
+  color: #FFFFFF;
   font-size: 0.875em;
 }
 
 input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
+  color: #FFFFFF;
 }
 
 input::placeholder, textarea::placeholder {
-  color: #aca49c;
+  color: #FFFFFF;
   font-size: 0.875em;
 }
 
 input:focus::placeholder, textarea::focus:placeholder {
-  color: #bbb5af;
+  color: #FFFFFF;
 }
 
 input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
+  color: #FFFFFF;
   font-size: 0.875em;
 }
 
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #bbb5af;
+  color: #FFFFFF;
 }
 
 /* on hover placeholder */
@@ -275,24 +275,19 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  background: #e2dedb;
-  color: #b3aca7;
-}
 
-header {
-  position: relative;
-  margin: 100px 0 25px 0;
-  font-size: 2.3em;
-  text-align: center;
-  letter-spacing: 7px;
-}
 
 #form {
-  position: relative;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
   width: 500px;
-  margin: 50px auto 100px auto;
+  max-width: 500px;
+  max-height: 600px;
+  margin: 0 auto;
+  margin-top: 270px;
+  padding: 20px;
 }
 
 input {
@@ -304,9 +299,9 @@ input {
   
   background: transparent;
   outline: none;
-  color: #726659;
+  color: #000000;
   
-  border: solid 1px #b3aca7;
+  border: solid 1px #000000;
   border-bottom: none;
   
   transition: all 0.3s ease-in-out;
@@ -317,7 +312,7 @@ input {
 
 input:hover {
   background: #b3aca7;
-  color: #e2dedb;
+  color: #000000;
 }
 
 textarea {
@@ -330,11 +325,11 @@ textarea {
   background: transparent;
   outline: none;
   
-  color: #726659;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   
-  border: solid 1px #b3aca7;
+  border: solid 1px #000000;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -344,26 +339,26 @@ textarea {
 
 textarea:hover {
   background: #b3aca7;
-  color: #e2dedb;
+  color: #000000;
 }
 
 #submit {
-  width: 502px;
+  width: 470px;
   
-  padding: 0;
-  margin: -5px 0px 0px 0px;
+  padding: 15px;
+  margin: 0 auto;
   
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  color: #b3aca7;
+  color: #000000;
   
   outline:none;
   cursor: pointer;
   
-  border: solid 1px #b3aca7;
+  border: solid 1px #000000;
   border-top: none;
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color: #000000;
 }

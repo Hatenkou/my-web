@@ -10,6 +10,7 @@
     -o-border-radius: 130px;
      border-radius: 130px;
 }
+/* p1*/
 .home-container{
     margin: 32px auto;
     margin-left: 64px;
@@ -21,6 +22,7 @@
     justify-content: center;
     align-items: center;
 }
+/* p2*/
 .internal-container{
     margin: 0 auto;
 }
@@ -51,11 +53,23 @@
     width: 620px;
     height: 300px;
 }
-.contact-container{
-    margin: 100px;
-    padding: 50px;
+/* p4 */
+.social {
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: center;
+}
+.facebook-container{
+    margin: 1px;
+    padding: 5px;
+}
+
+.skype-container{
+    margin: 1px;
+    padding: 5px;
+}
+.github-container{
+    margin: 1px;
+    padding: 5px;
 }
